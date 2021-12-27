@@ -15,6 +15,7 @@ for i in range(1, amount+1):
 
 all_average = score_average / amount
 
+# Func
 def Rank(result):
     if result == 100:
         return "A"
@@ -26,6 +27,8 @@ def Rank(result):
         return "D"
     else:
         return "E"
+
+#Flame
 rank = Rank(all_average)
 print("-- 시험 결과 --")
 print("과목: {}".format(amount))
